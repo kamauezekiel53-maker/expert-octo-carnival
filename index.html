@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!--
+    index.html
+    Portfolio single-page for Ezekiel Kamau
+    Fully animated, responsive, no JavaScript
+  -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ezekiel Kamau — Web Developer</title>
+
+  <!-- Google Font: Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background animated gradient layer -->
+  <div class="bg-animated" aria-hidden="true"></div>
+
+  <!-- Fixed Navigation -->
+  <header class="nav-wrap">
+    <nav class="nav container">
+      <a class="logo" href="#home" aria-label="Ezekiel Kamau home">
+        <span class="logo-dot"></span>
+        <span class="logo-name">Ezekiel</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <a class="nav-cta" href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero container">
+      <div class="hero-content">
+        <h1 class="hero-title">
+          Hi, I’m <span class="name">Ezekiel</span> <span class="emoji">👨‍💻</span>
+        </h1>
+        <p class="hero-sub">A Creative Web Developer</p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#contact">Contact Me</a>
+          <a class="btn btn-ghost" href="#projects">View Projects</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <!-- abstract neon panel -->
+        <div class="visual-panel">
+          <div class="panel-grid">
+            <div class="chip">HTML</div>
+            <div class="chip">CSS</div>
+            <div class="chip">JavaScript</div>
+            <div class="chip">Git</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="section-divider" />
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about container">
+      <h2 class="section-title">About</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I’m Ezekiel Kamau, a passionate front-end developer who blends clean code with elegant visuals.
+            I build interactive, accessible interfaces with a focus on performance and delight.
+          </p>
+          <p>
+            I enjoy solving UI challenges, learning new web technologies, and collaborating on meaningful projects.
+            My goal is to craft interfaces that feel futuristic yet intuitive.
+          </p>
+          <a class="btn btn-outline" href="#projects">See my work</a>
+        </div>
+
+        <div class="about-card">
+          <div class="profile-glow">
+            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Profile placeholder">
+          </div>
+
+          <ul class="about-stats">
+            <li><strong>3+</strong> years experience</li>
+            <li><strong>20+</strong> projects</li>
+            <li><strong>Always</strong> learning</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <hr class="section-divider" />
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="skills container">
+      <h2 class="section-title">Skills</h2>
+
+      <div class="skills-grid">
+        <!-- Animated skill cards -->
+        <article class="skill-card">
+          <div class="skill-icon">🌐</div>
+          <h3>HTML</h3>
+          <p>Semantic markup and accessible structure</p>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">🎨</div>
+          <h3>CSS</h3>
+          <p>Responsive layouts, animations, and modern patterns</p>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">⚡</div>
+          <h3>JavaScript</h3>
+          <p>Vanilla JS for interactivity and progressive enhancement</p>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">🔧</div>
+          <h3>Git & GitHub</h3>
+          <p>Version control, pull requests, and collaborative flow</p>
+        </article>
+      </div>
+    </section>
+
+    <hr class="section-divider" />
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="projects container">
+      <h2 class="section-title">Projects</h2>
+
+      <div class="projects-grid">
+        <!-- Project card 1 -->
+        <article class="project-card">
+          <img src="https://images.unsplash.com/photo-1526378725429-6b5d8a3bd52d?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Project 1">
+          <div class="project-info">
+            <h3>Neon Dashboard</h3>
+            <p>Dashboard UI with animated components and real-time feel.</p>
+            <div class="project-links">
+              <a href="https://github.com/kamauezekiel53-maker" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="#" class="preview">Live</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project card 2 -->
+        <article class="project-card">
+          <img src="https://images.unsplash.com/photo-1509395176047-4a66953fd231?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Project 2">
+          <div class="project-info">
+            <h3>Portfolio Animation</h3>
+            <p>Single-page portfolio built with CSS animations and accessibility in mind.</p>
+            <div class="project-links">
+              <a href="https://github.com/kamauezekiel53-maker" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="#" class="preview">Live</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project card 3 -->
+        <article class="project-card">
+          <img src="https://images.unsplash.com/photo-1505685296765-3a2736de412f?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Project 3">
+          <div class="project-info">
+            <h3>Component Library</h3>
+            <p>Reusable components with themeable CSS and documentation patterns.</p>
+            <div class="project-links">
+              <a href="https://github.com/kamauezekiel53-maker" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="#" class="preview">Live</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <hr class="section-divider" />
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact container">
+      <h2 class="section-title">Contact</h2>
+
+      <div class="contact-grid">
+        <form class="contact-form" action="mailto:kamauezekiel53@gmail.com" method="post" enctype="text/plain">
+          <!-- Note: this form uses mailto to demonstrate layout only -->
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" placeholder="Your name" required>
+          </label>
+
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" placeholder="you@example.com" required>
+          </label>
+
+          <label>
+            <span>Message</span>
+            <textarea name="message" rows="5" placeholder="Write a message..." required></textarea>
+          </label>
+
+          <div class="form-actions">
+            <button class="btn btn-primary" type="submit">Send Message</button>
+            <button class="btn btn-ghost" type="reset">Reset</button>
+          </div>
+        </form>
+
+        <aside class="contact-meta">
+          <div class="contact-card">
+            <h3>Get in touch</h3>
+            <p>Open to opportunities: freelance, collaboration, and full-time roles.</p>
+
+            <ul class="socials">
+              <li><a href="https://github.com/kamauezekiel53-maker" target="_blank" rel="noreferrer" class="icon">GitHub</a></li>
+              <li><a href="https://www.instagram.com/_ph_antom_knight" target="_blank" rel="noreferrer" class="icon">Instagram</a></li>
+              <li><a href="mailto:kamauezekiel53@gmail.com" class="icon">Email</a></li>
+            </ul>
+          </div>
+
+          <div class="contact-quick">
+            <div><strong>Email</strong><span>kamauezekiel53@gmail.com</span></div>
+            <div><strong>Location</strong><span>Uasin Gishu, Kenya</span></div>
+            <div><strong>Availability</strong><span>Open to hire</span></div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <p>© <span id="year">2025</span> Ezekiel Kamau — Crafted with care</p>
+  </footer>
+
+</body>
+        </html> 
